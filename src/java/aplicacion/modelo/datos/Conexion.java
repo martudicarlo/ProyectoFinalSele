@@ -23,7 +23,7 @@ public class Conexion
         {	        	
 	    Class.forName("com.mysql.jdbc.Driver");
 	    String usuarioDB="root";
-	    String passwordDB="sql37491391jp";
+	    String passwordDB="";
             String servidor = "jdbc:mysql://localhost:3306/aefilep";
 	         
 	    conexion = DriverManager.getConnection(servidor,usuarioDB,passwordDB);
